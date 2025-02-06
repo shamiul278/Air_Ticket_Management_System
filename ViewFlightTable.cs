@@ -75,9 +75,9 @@ namespace Air_Ticket_Management_System
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@Flightcode", textBox1.Text);
-                        cmd.Parameters.AddWithValue("@From", textBox2.Text);
+                        cmd.Parameters.AddWithValue("@From", textBox5.Text);
                         cmd.Parameters.AddWithValue("@To", textBox3.Text);
-                        cmd.Parameters.AddWithValue("@TakeOfDate", textBox5.Text);
+                        cmd.Parameters.AddWithValue("@TakeOfDate", textBox2.Text);
                         cmd.Parameters.AddWithValue("@NumOfSeat", numOfSeat);
 
                         int rowsAffected = cmd.ExecuteNonQuery();

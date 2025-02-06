@@ -72,7 +72,7 @@ namespace Air_Ticket_Management_System
                 try
                 {
                     conn.Open();
-                    string query = "UPDATE Passenger SET PassportNum=@PassportNum, PassengerEmail=@PassengerEmail, Password=@Password WHERE PassengerID=@PassengerID";
+                    string query = "UPDATE Passenger SET PassportNum=@PassportNum, PassengerEmail=@PassengerEmail, Password=@Password";
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {

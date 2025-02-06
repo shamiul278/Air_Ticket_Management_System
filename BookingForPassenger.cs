@@ -145,6 +145,8 @@ namespace Air_Ticket_Management_System
 
                     // Refresh the Booking DataGridView
                     LoadBookingRecords();
+                    // Refresh the Flight DataGridView
+                    LoadFlightRecords();
 
                 }
                 catch (Exception ex)

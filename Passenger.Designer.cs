@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.dgvBookingDetails = new System.Windows.Forms.DataGridView();
@@ -39,17 +38,6 @@
             this.BookBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBookingDetails)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(291, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 35);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "SkyLight Airline";
             // 
             // label3
             // 
@@ -66,11 +54,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(146, 105);
+            this.label5.Location = new System.Drawing.Point(256, 112);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(273, 27);
+            this.label5.Size = new System.Drawing.Size(108, 27);
             this.label5.TabIndex = 39;
-            this.label5.Text = "Ticket ID / PassportNum";
+            this.label5.Text = "Ticket ID";
             // 
             // dgvBookingDetails
             // 
@@ -110,7 +98,7 @@
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(468, 105);
+            this.textBoxSearch.Location = new System.Drawing.Point(388, 105);
             this.textBoxSearch.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSearch.Multiline = true;
             this.textBoxSearch.Name = "textBoxSearch";
@@ -156,7 +144,6 @@
             this.Controls.Add(this.SearchBtn);
             this.Controls.Add(this.dgvBookingDetails);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -171,7 +158,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dgvBookingDetails;

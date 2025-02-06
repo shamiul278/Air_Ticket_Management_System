@@ -151,8 +151,8 @@ namespace Air_Ticket_Management_System
         //Login Button
         private void btnLogout_Click_1(object sender, EventArgs e)
         {
-            Login loginForm = new Login();
-            loginForm.Show();
+            EmployeeHome EmployeeForm = new EmployeeHome();
+            EmployeeForm.Show();
             this.Hide();
         }
 

@@ -43,7 +43,7 @@ namespace Air_Ticket_Management_System
                 try
                 {
                     conn.Open();
-                    string query = "SELECT EmployeeID, EmployeeName, Nationality, PhoneNum, Gender FROM Employee";
+                    string query = "SELECT EmployeeID, EmployeeName,Password, Nationality, PhoneNum, Gender FROM Employee";
                     using (SqlDataAdapter adapter = new SqlDataAdapter(query, conn))
                     {
                         DataTable dt = new DataTable();
